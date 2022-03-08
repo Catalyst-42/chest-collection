@@ -22,7 +22,7 @@ p { color: #fff; }
 
 .information {
     color: #fff;
-    margin-right: 14px;
-    float: right;
-    position: sticky;
+    top: 14px;
+    right: 14px;
+    position: fixed;
 }

@@ -6,11 +6,20 @@ body {
 
 p { color: #fff; }
 
+@media screen and (max-width: 600px) {
+    .block {
+        flex-direction: column;
+    }
+}
+
 .card { margin: 10px; }
 
 .block {
     display: inline-flex;
+    flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .main {
@@ -26,3 +35,4 @@ p { color: #fff; }
     right: 14px;
     position: fixed;
 }
+

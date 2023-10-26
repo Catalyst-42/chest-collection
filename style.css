@@ -6,13 +6,11 @@ body {
 
 p { color: #fff; }
 
-@media screen and (max-width: 600px) {
-    .block {
-        flex-direction: column;
-    }
-}
+/* img { border: 1px solid red; } */
 
-.card { margin: 10px; }
+.card {
+    margin: 10px; 
+}
 
 .block {
     display: inline-flex;
@@ -20,6 +18,7 @@ p { color: #fff; }
     text-align: center;
     justify-content: center;
     align-content: center;
+    align-items: flex-end;
 }
 
 .main {
@@ -35,4 +34,3 @@ p { color: #fff; }
     right: 14px;
     position: fixed;
 }
-

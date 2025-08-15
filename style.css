@@ -4,9 +4,14 @@ body {
     font-size: 14px;
 }
 
-p { color: #fff; }
+p {
+    color: #fff;
+}
 
-/* img { border: 1px solid red; } */
+img {
+    /* border: 1px solid red; */
+    image-rendering: pixelated;
+}
 
 .card {
     margin: 10px; 
